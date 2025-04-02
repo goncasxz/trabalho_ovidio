@@ -9,7 +9,7 @@ body {
 }
 
 header {
-    background-color: rgba(0, 0, 0, 0.493);;
+    background-color: rgba(0, 0, 0, 0.493);
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -33,7 +33,6 @@ header img {
 
 header h1 {
     margin-right: 40px;
-    margin-top: 30px;
     font-size: 2.6rem;
 }
 
@@ -53,11 +52,11 @@ header nav ul {
     padding: 0;
     display: flex;
     gap: 20px;
+    height: 55px;
 }
 
 header nav ul li {
     padding: 0;
-    margin-top: 38px;
     margin-left: 40px;
     display: flex;
     flex-direction: column-reverse;
@@ -80,8 +79,8 @@ header nav ul li a:hover {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-left: 600px;
-    margin-top: 18px;
+    margin-left: 400px;
+    margin-top: 10px;
 }
 
 .barra_pesquisa input {
@@ -131,8 +130,103 @@ figcaption {
 }
 
 figcaption p {
-    font-size: 1rem;
+    font-size: 1.1rem;
     text-align: center;
+    margin-bottom: 5px;
+}
+
+.nome_skin {
+    margin-top: 0px;
+    margin-bottom: 15px;
+    font-size: 1.6rem;
+    font-weight: bolder;
+}
+
+i {
+    color: white;
+    font-size: 2rem;
+    margin-left: 5px;
+}
+
+i:hover {
+    color: #fbac18;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.493);
+    margin-top: 40px;
+    padding-bottom: 30px;
+    border-top: 1px solid white;
+    text-align: center;
+    
+}
+
+footer p {
+    font-size: 16px;
+    padding: 10px;
+    margin-top: 35px;
+    text-align: center;
+    color: white;
+  }
+
+.formulario {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 620px; 
+    margin: 50px auto; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.formulario h1 {
+    margin: 25px;
+}
+
+h1 {
+    text-align: center;
+}
+
+label {
+    font-size: 14px;
+    display: block;
+    margin-top: 10px;
+}
+
+input {
+    padding: 8px;
+    width: 450px;
+    margin-top: 5px;
+    border: none;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+    display: flex;
+}
+
+input:focus {
+    outline: 2px solid #fbac18;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    border: none;
+    border-radius: 5px;
+    background-color: #fbac18;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #a16b07;
 }
 
 
