@@ -1,7 +1,7 @@
 * {
     font-family: Poppins, sans-serif;
     color: white;
-    
+
 }
 
 body {
@@ -33,7 +33,7 @@ header img {
 
 header h1 {
     margin-right: 40px;
-    font-size: 2.6rem;
+    font-size: 41px;
 }
 
 header h1 a {
@@ -49,10 +49,9 @@ header nav {
 
 header nav ul {
     list-style: none;
-    padding: 0;
     display: flex;
     gap: 20px;
-    height: 55px;
+    height: 53px;
 }
 
 header nav ul li {
@@ -65,7 +64,7 @@ header nav ul li {
 header nav ul li a {
     color: white;
     text-decoration: none;
-    font-size: 1.2rem;
+    font-size: 21px;
     padding: 5px 10px;
 }
 
@@ -80,7 +79,6 @@ header nav ul li a:hover {
     align-items: center;
     justify-content: center;
     margin-left: 400px;
-    margin-top: 10px;
 }
 
 .barra_pesquisa input {
@@ -88,7 +86,7 @@ header nav ul li a:hover {
     color: white;
     width: 450px;
     padding: 10px;
-    font-size: 1rem;
+    font-size: 16px;
     border: none;
     border-radius: 5px;
 }
@@ -130,7 +128,7 @@ figcaption {
 }
 
 figcaption p {
-    font-size: 1.1rem;
+    font-size: 17px;
     text-align: center;
     margin-bottom: 5px;
 }
@@ -138,13 +136,13 @@ figcaption p {
 .nome_skin {
     margin-top: 0px;
     margin-bottom: 15px;
-    font-size: 1.6rem;
+    font-size: 26px;
     font-weight: bolder;
 }
 
 i {
     color: white;
-    font-size: 2rem;
+    font-size: 32px;
     margin-left: 5px;
 }
 
@@ -158,7 +156,6 @@ footer {
     padding-bottom: 30px;
     border-top: 1px solid white;
     text-align: center;
-    
 }
 
 footer p {
@@ -174,8 +171,8 @@ footer p {
     padding: 20px;
     border-radius: 8px;
     width: 100%;
-    max-width: 620px; 
-    margin: 50px auto; 
+    max-width: 620px;
+    margin: 50px auto;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     display: flex;
     flex-direction: column;
@@ -213,13 +210,9 @@ input:focus {
 }
 
 button {
-    width: 100%;
     padding: 10px;
-    margin-top: 20px;
-    margin-bottom: 25px;
     border: none;
     border-radius: 5px;
-    background-color: #fbac18;
     color: black;
     font-weight: bold;
     cursor: pointer;
@@ -227,6 +220,34 @@ button {
 
 button:hover {
     background-color: #a16b07;
+}
+
+.botao {
+    margin-top: 10px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+
+.botao button {
+    background-color: #fbac18;
+    width: 48%;
+}
+
+.btn_cancelar {
+    width: 100%;
+    background-color: red;
+    margin-bottom: 25px;
+    margin-top: 10px;
+}
+
+.btn_cancelar:hover {
+    background-color: rgb(199, 12, 12);
+}
+
+.cancelar {
+    text-decoration: none;
 }
 
 
